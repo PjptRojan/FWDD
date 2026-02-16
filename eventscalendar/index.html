@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Academic Events Calendar</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav-container">
+        <div class="logo-area">
+          <svg
+            class="logo-svg"
+            viewBox="0 0 48 48"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M24 18.4228L42 11.475V34.3663C42 34.7796 41.7457 35.1504 41.3601 35.2992L24 42V18.4228Z"
+              fill-rule="evenodd"
+            ></path>
+            <path
+              clip-rule="evenodd"
+              d="M24 8.18819L33.4123 11.574L24 15.2071L14.5877 11.574L24 8.18819ZM9 15.8487L21 20.4805V37.6263L9 32.9945V15.8487ZM27 37.6263V20.4805L39 15.8487V32.9945L27 37.6263ZM25.354 2.29885C24.4788 1.98402 23.5212 1.98402 22.646 2.29885L4.98454 8.65208C3.7939 9.08038 3 10.2097 3 11.475V34.3663C3 36.0196 4.01719 37.5026 5.55962 38.098L22.9197 44.7987C23.6149 45.0671 24.3851 45.0671 25.0803 44.7987L42.4404 38.098C43.9828 37.5026 45 36.0196 45 34.3663V11.475C45 10.2097 44.2061 9.08038 43.0155 8.65208L25.354 2.29885Z"
+              fill-rule="evenodd"
+            ></path>
+          </svg>
+          <span class="logo-text">Student Org</span>
+        </div>
+        <nav class="nav-links">
+          <a class="nav-link" href="../index.html">Home</a>
+          <a class="nav-link" href="../aboutus">About</a>
+          <a class="nav-link active" href="">Events</a>
+          <a class="nav-link" href="../becomemember">Members</a>
+          <a class="nav-link" href="../committee">Resources</a>
+          <a class="nav-link" href="../gallery">Gallery</a>
+          <a class="nav-link" href="../academicRepository">Projects</a>
+          <a class="nav-link" href="../faq">FAQ</a>
+          <a class="nav-link" href="../new&announcement/">Blog</a>
+          <a class="nav-link" href="../contactus">Contact</a>
+        </nav>
+        <div class="nav-actions">
+          <button class="btn-join">Join Us</button>
+          <button
+            class="menu-toggle"
+            style="background: none; color: white; display: none"
+          >
+            <span class="material-symbols-outlined">menu</span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main class="container">
+      <div class="page-header">
+        <span class="eyebrow">Our Calendar</span>
+        <h1>Upcoming Academic Events</h1>
+        <p class="subtext">
+          Stay ahead with our curated workshops, guest lectures, and
+          collaborative study sessions designed for your academic success.
+        </p>
+      </div>
+      <div class="filter-bar">
+        <div class="search-wrapper">
+          <span class="material-symbols-outlined">search</span>
+          <input
+            placeholder="Search by title, topic, or keyword..."
+            type="text"
+          />
+        </div>
+        <div class="chips-group">
+          <button class="chip active">
+            All Categories
+            <span class="material-symbols-outlined" style="font-size: 16px"
+              >expand_more</span
+            >
+          </button>
+          <button class="chip">
+            Seminars
+            <span class="material-symbols-outlined" style="font-size: 16px"
+              >mic</span
+            >
+          </button>
+          <button class="chip">
+            Workshops
+            <span class="material-symbols-outlined" style="font-size: 16px"
+              >build</span
+            >
+          </button>
+          <button class="chip">
+            Socials
+            <span class="material-symbols-outlined" style="font-size: 16px"
+              >groups</span
+            >
+          </button>
+          <button class="chip">
+            Exams
+            <span class="material-symbols-outlined" style="font-size: 16px"
+              >edit_note</span
+            >
+          </button>
+        </div>
+      </div>
+      <div class="events-grid">
+        <article class="event-card">
+          <div class="card-image-wrapper">
+            <div class="date-badge">
+              <span class="month">Oct</span>
+              <span class="day">15</span>
+            </div>
+            <div
+              class="card-image"
+              style="
+                background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuBD3il3UKHChAMAoqRsIFGMliPejMf5bbfTCQMynn7sZvxZOnccWG_7oXtQ27C-nlhvZiuMCbJpqfNqNyqtmktSK5wTVyMre7O6CjOefW1GL5oYIUrTFWaZCkoQcHF5PdBv4f944gviy0WTHrf5TpBfwWV1pVj6jxexDkeumDW48S4opKMWWDhNjC0Ay9jve1dCnLifNFCW_NfBXIXnclYsmAYij-VWs55bS0jT2CTF4ez9pIKSXbCkD8lxJ4tQXKHVFJ2VO26RrcJE&quot;);
+              "
+            ></div>
+            <div class="category-tag">Seminar</div>
+          </div>
+          <div class="card-body">
+            <div class="time-info">
+              <span class="material-symbols-outlined" style="font-size: 14px"
+                >schedule</span
+              >
+              2:00 PM - 4:00 PM
+            </div>
+            <h3 class="event-title">Advanced Calculus Seminar</h3>
+            <p class="event-desc">
+              A deep dive into multivariable integration techniques for
+              sophomore students. Perfect for exam prep.
+            </p>
+            <div class="card-footer">
+              <div class="location-info">
+                <span class="material-symbols-outlined" style="font-size: 16px"
+                  >location_on</span
+                >
+                Hall B, Main Wing
+              </div>
+              <button class="btn-details">Details</button>
+            </div>
+          </div>
+        </article>
+        <article class="event-card">
+          <div class="card-image-wrapper">
+            <div class="date-badge">
+              <span class="month">Oct</span>
+              <span class="day">18</span>
+            </div>
+            <div
+              class="card-image"
+              style="
+                background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuD8ueGsVdh0vJ8b7MrxZgfRX7-AR7HDbloLli_Mn-lQ136xGNYk5ZsId7oVGxKZGoHYiIqX5Z8I9x1amJG-iX4frq4nnAEHCnjAktlhKa-Oz7EU83_87oHeXBnmMe54nTSYCYQAjH6Pwk7nypXaCTzTnC3w2DXKaytniId3t5aSV1HlQxXhhnTLsenf01lBIKtXEi5UKp2JUlyEBQ-gedFZ9SW5cpd4QPxuGTQk5z5qBQSsHPV5ku4XHbwJxQa0J0KSpu4bBSXEfVQ_&quot;);
+              "
+            ></div>
+            <div class="category-tag">Workshop</div>
+          </div>
+          <div class="card-body">
+            <div class="time-info">
+              <span class="material-symbols-outlined" style="font-size: 14px"
+                >schedule</span
+              >
+              10:00 AM - 12:30 PM
+            </div>
+            <h3 class="event-title">Research Methods Workshop</h3>
+            <p class="event-desc">
+              Master the art of literature review and data collection. Includes
+              hands-on training with Zotero.
+            </p>
+            <div class="card-footer">
+              <div class="location-info">
+                <span class="material-symbols-outlined" style="font-size: 16px"
+                  >location_on</span
+                >
+                Lab 4, Tech Building
+              </div>
+              <button class="btn-details">Details</button>
+            </div>
+          </div>
+        </article>
+        <article class="event-card">
+          <div class="card-image-wrapper">
+            <div class="date-badge">
+              <span class="month">Oct</span>
+              <span class="day">20</span>
+            </div>
+            <div
+              class="card-image"
+              style="
+                background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuAfvDZx6ctwXS87wMwAfGfHOJ9HhYvq7fbRGuEzLoYYDDnDlYwNKitENLfNExGAKlg54G_JdqMtPje3mtwB0mJW3R3cePzKLpU8BhKmWxBvFy42UNb6Pt0XfYm8mcI9cCctEY3gJINCLt0xv5ulh9zjoBdqSIm3ZJtFdu0UL0Wio-gT0hcyRRXVUvZtNGzU6z4GWIYgZbiP5O4O50XCqS9d0PykLPU78PKfpWyMYE3nhQjmcI-MU1TBPlw2CCMgtTKJVMkR9NUYBOXw&quot;);
+              "
+            ></div>
+            <div class="category-tag">Social</div>
+          </div>
+          <div class="card-body">
+            <div class="time-info">
+              <span class="material-symbols-outlined" style="font-size: 14px"
+                >schedule</span
+              >
+              5:00 PM - 7:00 PM
+            </div>
+            <h3 class="event-title">Graduate Mixer</h3>
+            <p class="event-desc">
+              Network with graduate students and faculty members in an informal
+              setting. Light snacks provided.
+            </p>
+            <div class="card-footer">
+              <div class="location-info">
+                <span class="material-symbols-outlined" style="font-size: 16px"
+                  >location_on</span
+                >
+                Student Lounge, Level 2
+              </div>
+              <button class="btn-details">Details</button>
+            </div>
+          </div>
+        </article>
+        <article class="event-card">
+          <div class="card-image-wrapper">
+            <div class="date-badge">
+              <span class="month">Oct</span>
+              <span class="day">22</span>
+            </div>
+            <div
+              class="card-image"
+              style="
+                background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuCE6XowW-CKRfQDWA3O0LomnXLrwuQWIHKhJdx4eVQdDBhA58_7dbwoXwrk7zp9QiJHlZnDGq_qE2fmF3JKE0jdEfU5BuVoeo4d6ZFoip5B6C0VBF0a-ILk8CGKjlag_nHpWdhUtYm0IWFFWDusBQpRLvkrzl6UtsplY8Atyqr2Al_tIb91LuqJetWuPjRR5Gp1ZkPmwssgAYqxjkCxU33a-RmuJsuuXlct976Ld67MpjtjOLlINVjAYy1Adnei593P9s89R5Usf06U&quot;);
+              "
+            ></div>
+            <div class="category-tag">Study Group</div>
+          </div>
+          <div class="card-body">
+            <div class="time-info">
+              <span class="material-symbols-outlined" style="font-size: 14px"
+                >schedule</span
+              >
+              11:00 AM - 3:00 PM
+            </div>
+            <h3 class="event-title">Midterm Prep Session</h3>
+            <p class="event-desc">
+              Collaborative study session focusing on core concepts. Join your
+              peers to tackle difficult problems.
+            </p>
+            <div class="card-footer">
+              <div class="location-info">
+                <span class="material-symbols-outlined" style="font-size: 16px"
+                  >location_on</span
+                >
+                Library, West Wing
+              </div>
+              <button class="btn-details">Details</button>
+            </div>
+          </div>
+        </article>
+        <article class="event-card">
+          <div class="card-image-wrapper">
+            <div class="date-badge">
+              <span class="month">Oct</span>
+              <span class="day">25</span>
+            </div>
+            <div
+              class="card-image"
+              style="
+                background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuAFRT6aPt6X10bXJyBNMyI2tR4mNpJQSayVM7fSFFDB_lZDy5bUbCSFSWD0KzlRtRPnRrCUQ_THqCYCB_JpDC6PLFFLgieeFrrIAhNG-hmRjpGAlqEsNBJEg7_NY7VXpf3gLvj8vObWz0Kzbv8xCPoJWRooWC0awT7z3iaxNOakqfeIxcDWYRs7Mlh8oNhH3g6s5Q43PkP6TjxGj1WvGLimk1H8oPcyQWp5R0LpOwp-qpidUnTcBw9r1FgGsZKmtyYoTxuCwL_5hI2n&quot;);
+              "
+            ></div>
+            <div class="category-tag">Lab Visit</div>
+          </div>
+          <div class="card-body">
+            <div class="time-info">
+              <span class="material-symbols-outlined" style="font-size: 14px"
+                >schedule</span
+              >
+              1:00 PM - 2:30 PM
+            </div>
+            <h3 class="event-title">Bio-Genetics Lab Tour</h3>
+            <p class="event-desc">
+              An exclusive look into the university's genetics research
+              facility. Limited spots available.
+            </p>
+            <div class="card-footer">
+              <div class="location-info">
+                <span class="material-symbols-outlined" style="font-size: 16px"
+                  >location_on</span
+                >
+                Science Plaza
+              </div>
+              <button class="btn-details">Details</button>
+            </div>
+          </div>
+        </article>
+        <article class="event-card">
+          <div class="card-image-wrapper">
+            <div class="date-badge">
+              <span class="month">Oct</span>
+              <span class="day">30</span>
+            </div>
+            <div
+              class="card-image"
+              style="
+                background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuA-m6lFqNu3lo7sVXs9nGrBhMlFtg9Yi7cBl1zhFBHmCU9AWYFFkqoAwCrz3pSTPcpbsJiN-8rQilHt4z-ddP3ZZp5HWJIwqoO1AMr1iVKtHvx8lp2bdS-TeRghb09yhk5re48ObgEWsc1DhEPjVCG9lcxMpuE1Tejsgrh22Ao3BBVjCoe1CjgXEmqK-Wdn6yi0wziGr-c9fRnpMFFnewtMSorc4TXGtt-LHrfFq2BQLevZD12OY9zU6q2jK5wg6F228Hg5pKA00Yjk&quot;);
+              "
+            ></div>
+            <div class="category-tag">Lecture</div>
+          </div>
+          <div class="card-body">
+            <div class="time-info">
+              <span class="material-symbols-outlined" style="font-size: 14px"
+                >schedule</span
+              >
+              4:00 PM - 6:00 PM
+            </div>
+            <h3 class="event-title">AI &amp; Ethics Special Lecture</h3>
+            <p class="event-desc">
+              Guest speaker Dr. Jane Doe discusses the moral implications of
+              machine learning in modern society.
+            </p>
+            <div class="card-footer">
+              <div class="location-info">
+                <span class="material-symbols-outlined" style="font-size: 16px"
+                  >location_on</span
+                >
+                Grand Auditorium
+              </div>
+              <button class="btn-details">Details</button>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="pagination-area">
+        <button class="btn-load-more">
+          Load More Events
+          <span class="material-symbols-outlined">expand_more</span>
+        </button>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="footer-logo">
+            <svg
+              fill="currentColor"
+              style="width: 24px; height: 24px"
+              viewBox="0 0 48 48"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M24 18.4228L42 11.475V34.3663C42 34.7796 41.7457 35.1504 41.3601 35.2992L24 42V18.4228Z"
+                fill-rule="evenodd"
+              ></path>
+              <path
+                clip-rule="evenodd"
+                d="M24 8.18819L33.4123 11.574L24 15.2071L14.5877 11.574L24 8.18819ZM9 15.8487L21 20.4805V37.6263L9 32.9945V15.8487ZM27 37.6263V20.4805L39 15.8487V32.9945L27 37.6263ZM25.354 2.29885C24.4788 1.98402 23.5212 1.98402 22.646 2.29885L4.98454 8.65208C3.7939 9.08038 3 10.2097 3 11.475V34.3663C3 36.0196 4.01719 37.5026 5.55962 38.098L22.9197 44.7987C23.6149 45.0671 24.3851 45.0671 25.0803 44.7987L42.4404 38.098C43.9828 37.5026 45 36.0196 45 34.3663V11.475C45 10.2097 44.2061 9.08038 43.0155 8.65208L25.354 2.29885Z"
+                fill-rule="evenodd"
+              ></path>
+            </svg>
+            Student Org
+          </div>
+          <p class="footer-tagline">
+            Dedicated to fostering a culture of excellence and innovation among
+            university students.
+          </p>
+        </div>
+        <div>
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a class="footer-link" href="#">Home</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">About Us</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">Events</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">Member Directory</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Resources</h4>
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a class="footer-link" href="#">Study Guides</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">Past Projects</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="faq/">FAQs</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Follow Us</h4>
+          <div class="social-icons">
+            <a class="social-btn" href="#"
+              ><span class="material-symbols-outlined">language</span></a
+            >
+            <a class="social-btn" href="#"
+              ><span class="material-symbols-outlined">share</span></a
+            >
+            <a class="social-btn" href="#"
+              ><span class="material-symbols-outlined">alternate_email</span></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="container copyright">
+        © 2023 University Student Organization. All rights reserved.
+      </div>
+    </footer>
+  </body>
+</html>

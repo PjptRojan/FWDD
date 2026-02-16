@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Projects - Plain CSS Edition | AcademiaHub</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <header class="header">
+      <div class="container">
+        <h1>Our Projects</h1>
+        <p>
+          Exploring the intersection of theory and practice through innovative
+          academic research and community-driven initiatives.
+        </p>
+      </div>
+    </header> -->
+    <header class="header">
+      <div class="container nav-container">
+        <div class="logo-area">
+          <svg
+            class="logo-svg"
+            viewBox="0 0 48 48"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M24 18.4228L42 11.475V34.3663C42 34.7796 41.7457 35.1504 41.3601 35.2992L24 42V18.4228Z"
+              fill-rule="evenodd"
+            ></path>
+            <path
+              clip-rule="evenodd"
+              d="M24 8.18819L33.4123 11.574L24 15.2071L14.5877 11.574L24 8.18819ZM9 15.8487L21 20.4805V37.6263L9 32.9945V15.8487ZM27 37.6263V20.4805L39 15.8487V32.9945L27 37.6263ZM25.354 2.29885C24.4788 1.98402 23.5212 1.98402 22.646 2.29885L4.98454 8.65208C3.7939 9.08038 3 10.2097 3 11.475V34.3663C3 36.0196 4.01719 37.5026 5.55962 38.098L22.9197 44.7987C23.6149 45.0671 24.3851 45.0671 25.0803 44.7987L42.4404 38.098C43.9828 37.5026 45 36.0196 45 34.3663V11.475C45 10.2097 44.2061 9.08038 43.0155 8.65208L25.354 2.29885Z"
+              fill-rule="evenodd"
+            ></path>
+          </svg>
+          <a class="logo-text" href="../index.html">Student Org</a>
+        </div>
+        <nav class="nav-links">
+          <a class="nav-link" href="../index.html">Home</a>
+          <a class="nav-link" href="../aboutus">About</a>
+          <a class="nav-link" href="../eventscalendar">Events</a>
+          <a class="nav-link" href="../committee">Members</a>
+          <a class="nav-link" href="/academicRepository">Resources</a>
+          <a class="nav-link active" href="">Projects</a>
+          <a class="nav-link" href="../gallery">Gallery</a>
+          <a class="nav-link" href="../faq">FAQ</a>
+          <a class="nav-link" href="../new&announcement">Blog</a>
+          <a class="nav-link" href="../contactus/">Contact</a>
+        </nav>
+        <div class="nav-actions">
+          <button class="btn-join">Join Us</button>
+          <button
+            class="menu-toggle"
+            style="background: none; color: white; display: none"
+          >
+            <span class="material-symbols-outlined">menu</span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <section class="filters container">
+      <button class="filter-btn active">All Projects</button>
+      <button class="filter-btn">Academic</button>
+      <button class="filter-btn">Community</button>
+      <button class="filter-btn">Research</button>
+    </section>
+    <main class="container">
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="card-image-wrapper">
+            <img
+              alt="Robotics Project"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuABV0XhAeHRgkCI86OrSwlL4EJBFUoFRq7_2vj-st8mVocIb33m-7XLyZg5dLieX3dmAkx9UQieHgKLJTPDgJ_OsCcq039PKQx1ktTgP5OQkFFCWPgGR7B7iFvLZ99GyYQ8y0Xd7U4HP0gGx6d2WVuka3Enqg176SBCGWiO6e406nIGwV9ZH62v3H81At9KnXKiWlms3K_GPqEEriUYYhlfRz-8NEckDyXGOOFoGK3fOxs_NCfAv3-A_BABFaQXlWCqJXIB7MGPHYlc"
+            />
+            <span class="status-badge status-completed">Completed</span>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Autonomous Rover v1</h3>
+            <p class="card-description">
+              Development of a low-cost autonomous navigation system for
+              planetary surface exploration prototypes.
+            </p>
+            <div class="card-footer">
+              <span class="category-tag">Engineering</span>
+              <a class="case-study-link" href="#">
+                View Case Study
+                <span class="material-icons" style="font-size: 14px"
+                  >arrow_forward</span
+                >
+              </a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="card-image-wrapper">
+            <img
+              alt="Sustainability Audit"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCxKv9wqSMQMj6ddQkc0MhxAc7Gg6awZtB-vN60xIrMgwvx-OpUcoVhDRIpfVCWCQTcezEPR0_QIwghZLaSXe3n07UFz1mQsFaDAc4sJoaTYrXmk1XOm5TIQwyHdrmZInoQSqdKcVQUudvQjO1pHSZRSjrrNlQmEnpCxsRBCHuyYNhvj-UqvffHg7NJORiXb5SscWIPbJyE3c7wwA5kSgOAZwUjV4FX5h_38yof3ApZ9zcBNs8uSSq6Q90fqFLZxKrSgzaXtM29_rwV"
+            />
+            <span class="status-badge status-ongoing">Ongoing</span>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Campus Sustainability Audit</h3>
+            <p class="card-description">
+              Comprehensive analysis of energy consumption and waste management
+              across the university's main facilities.
+            </p>
+            <div class="card-footer">
+              <span class="category-tag">Community</span>
+              <a class="case-study-link" href="#">
+                View Details
+                <span class="material-icons" style="font-size: 14px"
+                  >arrow_forward</span
+                >
+              </a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="card-image-wrapper">
+            <img
+              alt="AI Research"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAqdJgFHxKtqhuXTjUOrZeB8iFiVCn6ZEqu7EehqEp1du8dNor9FSmEh8oawQsIEJ_zuFSRDGz3aAFu7wur5x_v4fXTYgxIY7iY8DpoF45cv9ruv2GsnWkjEw6ct4DvULdG9K4JjcWCaPlpdIpGHxIQZogQcTXcMOyaEAu33Ku5keXhStN76bwzxBsc4RF2yTiaC2xF_BYKlj6tVNrCVgb88vK7FwDaUmVeEfVvmGTrvbNYlpSxMQXtxrVA818sDjeDxLvH1TF_pcBe"
+            />
+            <span class="status-badge status-ongoing">Ongoing</span>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">AI Ethics Symposium</h3>
+            <p class="card-description">
+              A collaborative series exploring the societal implications of
+              large language models in higher education.
+            </p>
+            <div class="card-footer">
+              <span class="category-tag">Research</span>
+              <a class="case-study-link" href="#">
+                Event Page
+                <span class="material-icons" style="font-size: 14px"
+                  >arrow_forward</span
+                >
+              </a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="card-image-wrapper">
+            <img
+              alt="Data Analysis"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBd57e0yvVGkA9IcGEUgdb2oC5UYDs7VtnnxZr5P2ffeI7StucydCDtSbJDKD65H9UBS2h84_K-uMXudvJcy0DRU53QPOOIVrb5oabFQSdtpC7acHLd2rp8KVSm_1-CA_UHD1Fm_RpqU9g1uX6f8YlGu3IIOzAEhomSwi70KH_2Z3bcIixV2BMl-XhUoWLGt7-pN8MrPEnp0G0H_lrLQVCyi7RfdcYQ5FlYzbE2a6iQapfEWVMFONcC1vbmDudKkFt-UVyB8T1pZTr0"
+            />
+            <span class="status-badge status-completed">Completed</span>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Urban Mobility Tracker</h3>
+            <p class="card-description">
+              Data visualization dashboard analyzing public transport efficiency
+              in the metropolitan area.
+            </p>
+            <div class="card-footer">
+              <span class="category-tag">Academic</span>
+              <a class="case-study-link" href="#">
+                View Project
+                <span class="material-icons" style="font-size: 14px"
+                  >arrow_forward</span
+                >
+              </a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="card-image-wrapper">
+            <img
+              alt="Tutor Program"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxn5dp0IbjnLPmxbauIkqiL18WnXKXyy9aYnXra-jp1asBIUEj8fJ7tXTO4glSJ3dG1SKS9MWl1dBhjpGIjNIHrpRiB7iCLXT79mNACYu29SV9FhVwWVTpdQQjXLZayeejstkL-LEvhykqyv6YIl1dfC9ZDkEs8xiDv_JXMh2T9qPP0ICY_UZxkDtUZsQc36QF6Igvl2Ry7SYG7R-nmM1GLz0_x8H4EVddmfGhLvk1_CmyPfc3OWS5pbj6dcJHR0U5zqhYUH2-qM7X"
+            />
+            <span class="status-badge status-ongoing">Ongoing</span>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Peer Mentorship Link</h3>
+            <p class="card-description">
+              Connecting senior undergraduate students with freshmen to improve
+              retention and academic success.
+            </p>
+            <div class="card-footer">
+              <span class="category-tag">Community</span>
+              <a class="case-study-link" href="#">
+                Learn More
+                <span class="material-icons" style="font-size: 14px"
+                  >arrow_forward</span
+                >
+              </a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="card-image-wrapper">
+            <img
+              alt="Lab Research"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_ZpxfT40zack5oJa2lX1pgmkDO2f35KZe_OvyFm7n7QqRS8lZI79Szj_Sia_vLeTXgeVdLpCyG2MOPskAJPj0mElUPK6R5aG6-UM6aKqQm0qu7UM0IvS9BRBxFg8smqHE4BGbZfZn0vNmbmxwaTDhk7CqnaZug0sG2BRc5hsLOtd5I7dWMO1ETUZULd1OU1_iH-VtaD86alF-N8fsXwRVnTh0Lb_ROPd3OZvOPpueQd6ACA3kl0iZU_Z8ndvPINBAfh-AR1c_X18I"
+            />
+            <span class="status-badge status-completed">Completed</span>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Bio-Polymer Synthesis</h3>
+            <p class="card-description">
+              Experimental study on creating biodegradable plastics from
+              agricultural waste products.
+            </p>
+            <div class="card-footer">
+              <span class="category-tag">Research</span>
+              <a class="case-study-link" href="#">
+                Abstract
+                <span class="material-icons" style="font-size: 14px"
+                  >arrow_forward</span
+                >
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="load-more-container">
+        <button class="btn-load-more">
+          Load More Projects
+          <span class="material-icons">expand_more</span>
+        </button>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="footer-logo">
+            <svg
+              fill="currentColor"
+              style="width: 24px; height: 24px"
+              viewBox="0 0 48 48"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M24 18.4228L42 11.475V34.3663C42 34.7796 41.7457 35.1504 41.3601 35.2992L24 42V18.4228Z"
+                fill-rule="evenodd"
+              ></path>
+              <path
+                clip-rule="evenodd"
+                d="M24 8.18819L33.4123 11.574L24 15.2071L14.5877 11.574L24 8.18819ZM9 15.8487L21 20.4805V37.6263L9 32.9945V15.8487ZM27 37.6263V20.4805L39 15.8487V32.9945L27 37.6263ZM25.354 2.29885C24.4788 1.98402 23.5212 1.98402 22.646 2.29885L4.98454 8.65208C3.7939 9.08038 3 10.2097 3 11.475V34.3663C3 36.0196 4.01719 37.5026 5.55962 38.098L22.9197 44.7987C23.6149 45.0671 24.3851 45.0671 25.0803 44.7987L42.4404 38.098C43.9828 37.5026 45 36.0196 45 34.3663V11.475C45 10.2097 44.2061 9.08038 43.0155 8.65208L25.354 2.29885Z"
+                fill-rule="evenodd"
+              ></path>
+            </svg>
+            Student Org
+          </div>
+          <p class="footer-tagline">
+            Dedicated to fostering a culture of excellence and innovation among
+            university students.
+          </p>
+        </div>
+        <div>
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a class="footer-link" href="#">Home</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">About Us</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">Events</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">Member Directory</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Resources</h4>
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a class="footer-link" href="#">Study Guides</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">Past Projects</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="faq/">FAQs</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Follow Us</h4>
+          <div class="social-icons">
+            <a class="social-btn" href="#"
+              ><span class="material-symbols-outlined">language</span></a
+            >
+            <a class="social-btn" href="#"
+              ><span class="material-symbols-outlined">share</span></a
+            >
+            <a class="social-btn" href="#"
+              ><span class="material-symbols-outlined">alternate_email</span></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="container copyright">
+        © 2023 University Student Organization. All rights reserved.
+      </div>
+    </footer>
+  </body>
+</html>
