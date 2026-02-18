@@ -156,7 +156,7 @@ main {
 }
 
 .breadcrumbs {
-    margin-bottom: 24px;
+    margin-top: 12px;
     font-size: 0.875rem;
     color: var(--text-muted);
     font-weight: 500;
@@ -314,7 +314,7 @@ main {
 }
 
 .btn-download:hover {
-    background: var(--primary-hover);
+    background: var(--primary-dark);
 }
 
 .pagination {
@@ -366,7 +366,7 @@ main {
     color: var(--white);
     position: relative;
     overflow: hidden;
-    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .cta-content {
