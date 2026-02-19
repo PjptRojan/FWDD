@@ -494,3 +494,59 @@
  }
 
  
+ /* ---------- MOBILE SIDEBAR ---------- */
+@media (max-width: 1200px) {
+  .nav-links {
+    position: fixed;
+    top: 55px;
+    left: -260px;
+    height: 100vh;
+    width: 260px;
+    background-color: var(--navy-blue);
+    flex-direction: column;
+    padding: 2rem 1.5rem 2rem;
+    gap: 1rem;
+    transition: left 0.3s ease;
+    z-index: 200;
+  }
+
+  .nav-links.open {
+    left: 0;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+    padding: 0.5rem 0;
+  }
+
+  .nav-link.active {
+    border-bottom: none;
+    font-weight: 700;
+  }
+
+  /* Hide desktop join button */
+  .btn-join {
+    display: none;
+  }
+
+  /* Show hamburger */
+  .menu-toggle {
+    display: block !important;
+    cursor: pointer;
+  }
+}
+
+.nav-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease;
+  z-index: 150;
+}
+
+.nav-overlay.show {
+  opacity: 1;
+  visibility: visible;
+}
