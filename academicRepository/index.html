@@ -40,8 +40,8 @@
           <a class="nav-link" href="../index.html">Home</a>
           <a class="nav-link" href="../aboutus">About</a>
           <a class="nav-link" href="../eventscalendar">Events</a>
-          <a class="nav-link" href="../becomemember">Members</a>
-          <a class="nav-link active" href="../academicRepository/">Resources</a>
+          <a class="nav-link" href="../committee/">Members</a>
+          <a class="nav-link active" href="../academicRepository">Resources</a>
           <a class="nav-link" href="../projects">Projects</a>
           <a class="nav-link" href="../gallery">Gallery</a>
           <a class="nav-link" href="../faq">FAQ</a>
@@ -68,23 +68,22 @@
         </p>
       </div>
       <div class="filters">
-        <button class="filter-btn active">
+        <button class="filter-btn active" data-tab="tab1">
           All Subjects
           <span class="material-symbols-outlined">expand_more</span>
         </button>
-        <button class="filter-btn">
+        <button class="filter-btn" data-tab="tab2">
           Mathematics <span class="material-symbols-outlined">expand_more</span>
         </button>
-        <button class="filter-btn">
+        <button class="filter-btn" data-tab="tab3">
           Computer Science
           <span class="material-symbols-outlined">expand_more</span>
         </button>
-        <button class="filter-btn">
+        <button class="filter-btn" data-tab="tab4">
           Economics <span class="material-symbols-outlined">expand_more</span>
         </button>
-        <button class="filter-btn">Latest Uploads</button>
       </div>
-      <div class="resource-card">
+      <div class="resource-card active" id="tab1">
         <table class="resource-table">
           <thead>
             <tr>
@@ -242,6 +241,216 @@
           </tbody>
         </table>
       </div>
+      <div class="resource-card" id="tab2">
+        <table class="resource-table">
+          <thead>
+            <tr>
+              <th style="width: 40%">Resource Title</th>
+              <th style="width: 15%">Course</th>
+              <th style="width: 15%">Added</th>
+              <th style="width: 15%">Format</th>
+              <th style="width: 15%; text-align: right">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <span class="res-title">Calculus Formula Sheet</span>
+                <span class="res-desc"
+                  >Important derivatives and integrals.</span
+                >
+              </td>
+              <td><span class="badge-course">MATH201</span></td>
+              <td>
+                <span style="font-size: 0.875rem; color: var(--text-muted)"
+                  >Jan 10, 2024</span
+                >
+              </td>
+              <td>
+                <div class="format-info">
+                  <span class="material-symbols-outlined icon-pdf"
+                    >picture_as_pdf</span
+                  >
+                  <span>PDF (1.5MB)</span>
+                </div>
+              </td>
+              <td style="text-align: right">
+                <button class="btn-download">
+                  <span class="material-symbols-outlined">download</span>
+                  Download
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <span class="res-title">Linear Algebra Notes</span>
+                <span class="res-desc"
+                  >Matrices, vectors, and eigenvalues.</span
+                >
+              </td>
+              <td><span class="badge-course">MATH202</span></td>
+              <td>
+                <span style="font-size: 0.875rem; color: var(--text-muted)"
+                  >Feb 02, 2024</span
+                >
+              </td>
+              <td>
+                <div class="format-info">
+                  <span class="material-symbols-outlined icon-pdf"
+                    >picture_as_pdf</span
+                  >
+                  <span>PDF (2.0MB)</span>
+                </div>
+              </td>
+              <td style="text-align: right">
+                <button class="btn-download">
+                  <span class="material-symbols-outlined">download</span>
+                  Download
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="resource-card" id="tab3">
+        <table class="resource-table">
+          <thead>
+            <tr>
+              <th style="width: 40%">Resource Title</th>
+              <th style="width: 15%">Course</th>
+              <th style="width: 15%">Added</th>
+              <th style="width: 15%">Format</th>
+              <th style="width: 15%; text-align: right">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <span class="res-title">Operating Systems Guide</span>
+                <span class="res-desc"
+                  >Processes, threads, and scheduling.</span
+                >
+              </td>
+              <td><span class="badge-course">CS303</span></td>
+              <td>
+                <span style="font-size: 0.875rem; color: var(--text-muted)"
+                  >Mar 15, 2024</span
+                >
+              </td>
+              <td>
+                <div class="format-info">
+                  <span class="material-symbols-outlined icon-pdf"
+                    >picture_as_pdf</span
+                  >
+                  <span>PDF (2.8MB)</span>
+                </div>
+              </td>
+              <td style="text-align: right">
+                <button class="btn-download">
+                  <span class="material-symbols-outlined">download</span>
+                  Download
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <span class="res-title">Database Design Notes</span>
+                <span class="res-desc">Normalization and ER diagrams.</span>
+              </td>
+              <td><span class="badge-course">CS304</span></td>
+              <td>
+                <span style="font-size: 0.875rem; color: var(--text-muted)"
+                  >Apr 05, 2024</span
+                >
+              </td>
+              <td>
+                <div class="format-info">
+                  <span class="material-symbols-outlined icon-doc"
+                    >description</span
+                  >
+                  <span>DOCX (500KB)</span>
+                </div>
+              </td>
+              <td style="text-align: right">
+                <button class="btn-download">
+                  <span class="material-symbols-outlined">download</span>
+                  Download
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="resource-card" id="tab4">
+        <table class="resource-table">
+          <thead>
+            <tr>
+              <th style="width: 40%">Resource Title</th>
+              <th style="width: 15%">Course</th>
+              <th style="width: 15%">Added</th>
+              <th style="width: 15%">Format</th>
+              <th style="width: 15%; text-align: right">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <span class="res-title">Microeconomics Notes</span>
+                <span class="res-desc">Supply, demand, and elasticity.</span>
+              </td>
+              <td><span class="badge-course">ECON201</span></td>
+              <td>
+                <span style="font-size: 0.875rem; color: var(--text-muted)"
+                  >May 12, 2024</span
+                >
+              </td>
+              <td>
+                <div class="format-info">
+                  <span class="material-symbols-outlined icon-pdf"
+                    >picture_as_pdf</span
+                  >
+                  <span>PDF (1.2MB)</span>
+                </div>
+              </td>
+              <td style="text-align: right">
+                <button class="btn-download">
+                  <span class="material-symbols-outlined">download</span>
+                  Download
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <span class="res-title">Macroeconomic Policy Guide</span>
+                <span class="res-desc">Inflation, GDP, and fiscal policy.</span>
+              </td>
+              <td><span class="badge-course">ECON202</span></td>
+              <td>
+                <span style="font-size: 0.875rem; color: var(--text-muted)"
+                  >Jun 01, 2024</span
+                >
+              </td>
+              <td>
+                <div class="format-info">
+                  <span class="material-symbols-outlined icon-pdf"
+                    >picture_as_pdf</span
+                  >
+                  <span>PDF (900KB)</span>
+                </div>
+              </td>
+              <td style="text-align: right">
+                <button class="btn-download">
+                  <span class="material-symbols-outlined">download</span>
+                  Download
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
       <div class="pagination">
         <div class="page-info">Showing 5 of 124 resources</div>
         <div class="page-nav">
@@ -355,5 +564,6 @@
         © 2023 University Student Organization. All rights reserved.
       </div>
     </footer>
+    <script src="../js/academicRepository.js"></script>
   </body>
 </html>
