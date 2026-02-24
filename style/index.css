@@ -492,6 +492,13 @@
          grid-template-columns: repeat(2, 1fr);
      }
  }
+ @media (max-width: 768px) {
+    .footer-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+ }
 
  
  /* ---------- MOBILE SIDEBAR ---------- */

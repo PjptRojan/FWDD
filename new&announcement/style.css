@@ -30,7 +30,7 @@
 
  body {
      font-family: 'Lexend', sans-serif;
-     background-color: var(--bg-light);
+    background-color: var(--background-light);
      color: var(--text-main);
      line-height: 1.6;
  }
@@ -142,6 +142,7 @@
      overflow: hidden;
      margin-bottom: 48px;
      color: white;
+     margin-top: 48px;
  }
 
  .hero-bg {

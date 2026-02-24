@@ -217,12 +217,14 @@
             Join Now
           </button>
           <button
+            id="contactBtn"
             class="btn-outline"
             style="
               color: var(--text-main);
               border-color: var(--border-color);
               background: var(--white);
             "
+            onclick="goToContact()"
           >
             Contact Us
           </button>
@@ -313,6 +315,12 @@
         © 2023 University Student Organization. All rights reserved.
       </div>
     </footer>
-    <script src="./js/navbar.js"></script>
+    <script>
+      document
+        .getElementById("contactBtn")
+        .addEventListener("click", function () {
+          window.location.href = "contactus";
+        });
+    </script>
   </body>
 </html>
